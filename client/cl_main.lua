@@ -9,6 +9,12 @@ AddEventHandler('revive', function()
 	local player = PlayerPedId()
 	SetEntityHealth(player, 200)
     ClearPedTasksImmediately(player)
+	DoScreenFadeOut(800)
+	while not IsScreenFadedOut() do
+		Citizen.Wait(50)
+	end
+	StopScreenEffect('DeathFailOut')
+	DoScreenFadeIn(800)
 
 	--[[ TriggerEvent('chat:addMessage', {
 		args = { "^6[SYSTEM]", " ^1You have been revived by an admin."}
