@@ -1,0 +1,3 @@
+Config = {}
+
+Config.TNotify = false -- THIS REQUIRES T-NOTIFY INSTALLED AND STARTED!! READ THE README.md
