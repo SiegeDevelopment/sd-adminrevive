@@ -29,4 +29,4 @@ Simple enough!
 Please read the [license](https://github.com/SiegeDevelopment/sd-adminrevive/blob/main/LICENSE) before you decide to do anything with this code.
 
 # Note
-If you would like to change the command name from /revive to something else, change `RegisterCommand('revive'` to `RegisterCommand('yourcommandname'` in server/sv_main.lua:1 **and** change `TriggerEvent('chat:addSuggestion', '/revive'` to `TriggerEvent('chat:addSuggestion', '/yourcommandname'` in client/cl_main.lua:12.
+If you would like to change the command name from /revive to something else, change `RegisterCommand('revive'` to `RegisterCommand('yourcommandname'` in server/sv_main.lua:1 **and** change `TriggerEvent('chat:addSuggestion', '/revive'` to `TriggerEvent('chat:addSuggestion', '/yourcommandname'` in client/cl_main.lua:20.
