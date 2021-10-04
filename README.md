@@ -19,7 +19,7 @@ If you need help with aces/principals, please read this [guide](https://forum.cf
 # Notifications
 **If you would like nicer notifications, please read the following:**
 This resource has an optional dependency on Taso's [t-notify](https://github.com/TasoOneAsia/t-notify/releases).
-This is what the notification will look like if you choose this option: ![[t-notify image example](https://siege.file.glass/fr8KInvk2f.png)]
+This is what the notification will look like if you choose this option: ![t-notify image example](https://siege.file.glass/fr8KInvk2f.png)
 All you need to do for this is change `Config.TNotify` to `true` in config.lua, install t-notify [here](https://github.com/TasoOneAsia/t-notify/releases) and add `ensure t-notify` to your server.cfg above `ensure sd-adminrevive`.
 Simple enough!
 
