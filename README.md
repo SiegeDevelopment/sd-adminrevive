@@ -18,7 +18,7 @@ If you need help with aces/principals, please read this [guide](https://forum.cf
 
 # Notifications
 **If you would like nicer notifications, please read the following:**
-This resource has an optional dependency on Taso's [t-notify](https://github.com/TasoOneAsia/t-notify/releases).
+This resource has an optional dependency on Taso's [t-notify](https://github.com/TasoOneAsia/t-notify).
 This is what the notification will look like if you choose this option: 
 
 ![t-notify image example](https://siege.file.glass/fr8KInvk2f.png)
